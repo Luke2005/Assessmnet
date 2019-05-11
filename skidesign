@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace::std;
+
+int main()
+{
+	int cost,N,min,x,max;
+        int height[],total[];
+        cin>>N;
+        for(i=0;i<=N;i++)
+        {
+		cin>>height[i];
+       //find SMALLEST height in array
+                if(height[i]<height[j])
+                {
+			min=height[i];
+                }
+                
+       //find LARGEST height in array       
+                 max=min+17;
+                 if(num[i]<min)
+                 {
+			cost=cost+(num[i]-min)*(num[i]-min;
+                        total[i]=cost;
+		 }
+                 else if(nums[i]>max)
+                 {
+                 	cost=cost+(num[i]-max)*(num[i]-max);
+                        total[i]=cost
+                 }
+                 
+        
+        }
+  
+        for(i=0;i<=N;i++)
+        {	
+		if(total[i]<total[j])
+                {
+			x=total[i];
+                }
+        }
+      
+        cout<<x<<endl;
+}
